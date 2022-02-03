@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ES2020",
+    "target": "ES2021",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strictNullChecks": false
+  }
+}
