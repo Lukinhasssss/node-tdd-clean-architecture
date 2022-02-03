@@ -13,6 +13,13 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
     "git-commit-msg-linter": "^4.0.7",
+    "husky": "^7.0.0",
+    "lint-staged": ">=10",
     "typescript": "*"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint 'src/**/*.ts' --fix"
+    ]
   }
 }
