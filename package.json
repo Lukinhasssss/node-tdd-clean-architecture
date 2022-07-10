@@ -49,13 +49,5 @@
     "fast-glob": "^3.2.11",
     "mongodb": "^4.5.0",
     "validator": "^13.7.0"
-  },
-  "config": {
-    "mongodbMemoryServer": {
-      "platform": "linux",
-      "version": "5.0.8",
-      "downloadDir": "./node_modules/.cache/mongodb-binaries",
-      "downloadUrl": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-latest.tgz"
-    }
   }
 }
